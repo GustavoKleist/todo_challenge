@@ -1,0 +1,26 @@
+@import "./colors";
+@import "./login";
+@import "./header";
+@import "./project";
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $colorBlue;
+  color: $colorGray;
+  box-sizing: border-box;
+  min-height: 100%;
+  margin: 0;
+  position: relative;
+}
+
+header {
+  position: relative;
+}
+
+main {
+  flex: 1 0 auto;
+}

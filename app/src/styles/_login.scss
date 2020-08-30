@@ -1,0 +1,28 @@
+.login_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .login_form {
+    border: 1px solid $colorGray2;
+    border-radius: 8px;
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    background-color: $colorWhite;
+
+    input {
+      margin-bottom: 10px;
+    }
+
+    .login_form_submit {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 10px;
+    }
+  }
+}
